@@ -1,0 +1,43 @@
+backgroundImage = "background image asset name"
+introText = """
+Intro text
+"""
+
+# For questions value use
+# T - true
+# F - false
+# Q - quit
+
+# test id
+[[questions]]
+title = "title text"
+test = "test id"
+info = ""
+question = "question text"
+extraInfo = """
+extra info
+"""
+
+[[questions.options]]
+value = "T"
+text = "answer text"
+
+[[questions.options]]
+value = "T"
+text = "answer text"
+
+[[questions.options]]
+value = "F"
+text = "answer text"
+
+[[questions.options]]
+value = "T"
+text = "answer text"
+
+[[questions.options]]
+value = "F"
+text = "answer text"
+
+[[questions.options]]
+value = "Q"
+text = "answer text"
